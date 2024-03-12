@@ -1,0 +1,90 @@
+header {
+    background-color: white;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 130px;
+    padding-left: 3px;
+    width:auto;
+    height: 90px;
+}
+
+nav {
+    display: inline-block;
+    padding-top: 90px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+}
+
+.dropbtn {
+    background-color: rgb(73, 165, 121);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+  
+.dropdown {
+    position:relative;
+    display:inline-block;
+    padding: 5px 20 px;
+}
+  
+.dropdown-content {
+    display: none;
+    position:absolute;
+    background-color: rgb(73, 165, 121);
+    width: 20px;
+}
+  
+.dropdown-content a {
+    color: rgb(73, 165, 121);
+    padding: 0px 0px;
+    text-decoration: none;
+    font-size: 10px;
+    display:inline-block;
+    width: 235%;
+}
+  
+.dropdown-content a:hover {
+    background-color:rgb(156, 192, 101);
+    color:white;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+.dropdown:hover .dropbtn {
+    background-color: white;
+    
+}
+
+.logo img {
+    padding-top: 15px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    width: 360px;
+    height: 250%;
+    float: left;
+}
+
+a:link, a:visited {
+    background-color: rgb(73, 165, 121);
+    color: white;
+    padding: 6px 35px;
+    text-decoration: none;
+    text-align: left;
+    display: inline-block;
+    font-family: Avenir, sans-serif;
+    font-size: medium;
+}
+
+a:hover, a:active {
+    background-color: rgb(156, 192, 101);
+    color: white;
+}
+
+
+
