@@ -5,17 +5,8 @@ header {
     padding-bottom: 130px;
     padding-left: 3px;
     width:auto;
-    height: 90px;
+    height: 100px;
 }
-
-nav {
-    display: inline-block;
-    padding-top: 90px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 20px;
-}
-
 .dropbtn {
     background-color: rgb(73, 165, 121);
     color: white;
@@ -61,12 +52,12 @@ nav {
 }
 
 .logo img {
+    width: 80%;
+    max-width: 200px;
     padding-top: 15px;
     padding-right: 0px;
-    padding-bottom: 0px;
+    padding-bottom: 40px;
     padding-left: 30px;
-    width: 360px;
-    height: 250%;
     float: left;
 }
 
@@ -85,6 +76,61 @@ a:hover, a:active {
     background-color: rgb(156, 192, 101);
     color: white;
 }
+/* Responsive layout - when the screen is less than 700px wide, make the columns next to each other */
+@media screen and (min-width: 420px) {
+    header {
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 130px;
+        padding-left: 3px;
+        width:auto;
+        height: 70px;
+}
+.logo img {
+        width: 50%;
+        max-width: 420px;
+        padding-top: 10px;
+        padding-right: 50px;
+        padding-bottom: 20px;
+        padding-left: 125px;
+}
+.navbar, a:link{
+        display:inline-block;
+        width: max-content;
+        padding: 8px 2px ;
+}
+.ravintola {
+    width: 400px;
+    margin: 35px;    
+}
 
-
-
+}
+@media screen and (min-width:1024px) {
+    header {
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 130px;
+        padding-left: 3px;
+        width:auto;
+        height: 100px;
+}
+.logo img {
+        width: 100%;
+        max-width: 400px;
+        padding: 10px 10px 0px 10px;
+}
+.navbar {
+        display: inline-block;
+        width:max-content;
+        padding: 95px 20px;
+}
+a:link {
+        display: inline-block;
+        width:max-content;
+        padding: 10px 30px;
+}
+.ravintola {
+    width: 1000px;
+    padding: 50px 80px 50px 80px;
+}
+}
